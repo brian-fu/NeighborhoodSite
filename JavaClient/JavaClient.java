@@ -4,7 +4,7 @@ import java.net.Socket;
 
 public class JavaClient {
 
-    private static String host = "11.207.2.30";
+    private static String host = "198.168.10.1";
 
     public static void main(String[] args) {
         try{
@@ -18,7 +18,7 @@ public class JavaClient {
 
     private void setUpNetworking() throws Exception {
 		@SuppressWarnings("resource")
-		Socket socket = new Socket(host, 2232);
+		Socket socket = new Socket(host, 8080);
 		System.out.println("Connecting to... " + socket);
     }
 }
