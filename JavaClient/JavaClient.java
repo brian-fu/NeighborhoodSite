@@ -1,10 +1,8 @@
-package JavaClient;
-
 import java.net.Socket;
 
 public class JavaClient {
 
-    private static String host = "0.0.0.0";
+    private static String host = "11.207.2.30";
 
     public static void main(String[] args) {
         try{
